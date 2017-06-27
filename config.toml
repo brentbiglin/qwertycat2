@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://qwertycat2.netlify.com/"
 languageCode = "en-us"
-title = "QwertyCat Consulting"
+title = "QwertyCat"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "QwertyCat Consulting"
+  name = "QwertyCat"
   description = "Your description"
 
   # Link custom assets relative to /static

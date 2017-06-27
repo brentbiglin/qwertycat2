@@ -32,7 +32,7 @@ googleAnalytics = ""
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    text = "Please visit [our home page](/)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -65,18 +65,18 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "High-impact Digital Products"
+    subtitle = "You've found the right people"
     buttonText = "Tell me more"
 
 
@@ -84,25 +84,25 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "quality content and a commitment to collaboration and high impact deliverables"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
+      icon = "fa-video-camera"
+      title = "Video"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
+      title = "Responsive Web Design"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
+      icon = "fa-usd"
+      title = "Marketing"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
@@ -127,8 +127,8 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    subtitle = "an energetic, diversely talented group of people who want to help our clients attain their greatest potential"
+    endpoint = "Be a part<br>of our<br>story"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -150,9 +150,9 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Our team"
+    subtitle = "artists, writers, designers, and teachers"
+    description = "Coming from a diverse array of backgrounds, we met at The University of Texas at Austin’s iSchool. Working together through coursework and extracurricular academic projects, we decided to form QwertyCat Consulting to have a greater impact beyond the four walls of our school."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -160,17 +160,16 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "eric.png"
       name = "Eric Graham"
-      position = "CEO and Videographer"
+      position = "CEO & Videographer"
       reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      livesIn = ""
+      #scope = [
+      #  "UX for [member dashboard](#)",
+      #  "Maintainer for [awesome-project](#)",
+      #  "Open Source [community management](#)"
+      #]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """"""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -180,7 +179,7 @@ She worked at Pied Piper for years until they went belly up."""
     [[params.team.members]]
       img = "molly.png"
       name = "Molly McGee"
-      position = "COO"
+      position = "COO, Project & Account Manager"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -190,10 +189,11 @@ She worked at Pied Piper for years until they went belly up."""
     [[params.team.members]]
       img = "brent.png"
       name = "Brent Biglin"
-      position = "Designer and Developer"
+      position = "Designer & Developer"
       social = [
         ["fa-twitter", "https://twitter.com/brntbgln"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/brent-biglin-a31b2972/"],
+        ["fa-envelope", "mailto:biglin@gmail.com"]
       ]
 
     [[params.team.members]]
@@ -208,16 +208,17 @@ She worked at Pied Piper for years until they went belly up."""
     [[params.team.members]]
       img = "kate.png"
       name = "Kathryn Golden"
-      position = "UX and Market Researcher"
+      position = "UX & Market Researcher"
       social = [
-        ["fa-twitter", "https://twitter.com/brntbgln"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "https://twitter.com/brntbgln"],
+        ["fa-linkedin", "https://www.linkedin.com/in/kathryn-golden-8802a683/"],
+        ["fa-envelope", "mailto:kegolden12@gmail.com"]
       ]
 
     [[params.team.members]]
       img = "kristen.png"
       name = "Kristen Graham"
-      position = "Graphic and Brand Designer"
+      position = "Graphic & Brand Designer"
       social = [
         ["fa-twitter", "https://twitter.com/brntbgln"],
         ["fa-linkedin", "#"]
@@ -254,7 +255,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "<br>"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a

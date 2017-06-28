@@ -92,19 +92,19 @@ googleAnalytics = ""
       icon = "fa-video-camera"
       title = "Video"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Responsive Web Design"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-usd"
       title = "Marketing"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      #url = "#"
 
   # Portfolio section
   [params.portfolio]

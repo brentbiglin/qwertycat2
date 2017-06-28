@@ -45,7 +45,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "QwertyCat Consulting"
+    brand = "QwertyCat"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"

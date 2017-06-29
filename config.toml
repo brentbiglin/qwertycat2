@@ -201,8 +201,8 @@ googleAnalytics = ""
       name = "Elizabeth Fletcher"
       position = "Content Strategist"
       social = [
-        ["fa-twitter", "https://twitter.com/brntbgln"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/eafletcher107"],
+        ["fa-envelope", "mailto:eafletcher107@gmail.com"]
       ]
 
     [[params.team.members]]

@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://qwertycat2.netlify.com/"
+baseurl = "https://qwertycat.io"
 languageCode = "en-us"
 title = "QwertyCat"
 theme = "hugo-agency-theme"
@@ -23,7 +23,7 @@ googleAnalytics = ""
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    =
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome

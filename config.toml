@@ -91,19 +91,19 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-video-camera"
       title = "Video"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Dynamic and engaging content designed to achieve its desired goals in a world where information moves at least thirty frames per second."
       #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Responsive Web Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "The outward-facing side of our clients, expertly formulated to forge the greatest sustainable impact with innovative content and creative design."
       #url = "#"
 
     [[params.services.row.list]]
       icon = "fa-usd"
       title = "Marketing"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Creating compelling and persuasive campaigns individually crafted to serve our clients’ needs and the needs of their consumers."
       #url = "#"
 
   # Portfolio section
@@ -137,13 +137,13 @@ googleAnalytics = ""
       img = "1.jpg"
       date = "May 2017"
       title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "We began as a group of teaching and lab assistants who wanted to do more to create and propagate the type of content we think should exist in the world. Wanting to work together and with clients with similar passions seemed like the natural next step, so here we are!"
 
     [[params.about.events]]
       img = "2.jpg"
       date = "June 2017"
       title = "Website Launch"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "We sprang onto the virtual scene in the summer of 2017. Our website is made up of a little piece of each of us, from the original team member profile drawings, to the code, to the words you are reading right now!"
 
   # Team section
   [params.team]

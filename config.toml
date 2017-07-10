@@ -171,9 +171,10 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       bio = """"""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/eric-t-graham-908915b3/"],
+        ["fa-envelope", "mailto:graham.eric.t@gmail.com"]
       ]
 
     [[params.team.members]]
@@ -181,9 +182,10 @@ googleAnalytics = ""
       name = "Molly McGee"
       position = "COO, Project & Account Manager"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/mcgeemolly/"],
+        ["fa-envelope", "mailto:mollymcgee316@gmail.com"]
       ]
 
     [[params.team.members]]
@@ -220,8 +222,8 @@ googleAnalytics = ""
       name = "Kristen Graham"
       position = "Graphic & Brand Designer"
       social = [
-        ["fa-twitter", "https://twitter.com/brntbgln"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "https://twitter.com/brntbgln"],
+        ["fa-envelope", "mailto:graham.kristen.j@gmail.com"]
       ]
 
   # Client section

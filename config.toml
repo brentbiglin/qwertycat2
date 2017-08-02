@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://qwertycat.io"
 languageCode = "en-us"
-title = "QwertyCat"
+title = "Design and Content Agency Website"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "QwertyCat"
+  name = "Design and Content Agency Website"
   description = "Your description"
 
   # Link custom assets relative to /static
@@ -45,7 +45,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "QwertyCat"
+    brand = "A Design and Content Agency Concept Site"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
@@ -137,13 +137,13 @@ googleAnalytics = ""
       img = "1.jpg"
       date = "May 2017"
       title = "Our Humble Beginnings"
-      description = "We began as a group of teaching and lab assistants who wanted to do more to create and propagate the type of content we think should exist in the world. Wanting to work together and with clients with similar passions seemed like the natural next step, so here we are!"
+      description = "We began as a group of teaching and lab assistants who wanted to fundamentally change the course of history through the creation and presentation of quality content."
 
     [[params.about.events]]
       img = "2.jpg"
       date = "June 2017"
       title = "Website Launch"
-      description = "We sprang onto the virtual scene in the summer of 2017. Our website is made up of a little piece of each of us, from the original team member profile drawings, to the code, to the words you are reading right now!"
+      description = "We sprang onto the virtual scene in the summer of 2017. The world was never the same." 
 
   # Team section
   [params.team]
@@ -152,7 +152,7 @@ googleAnalytics = ""
     #center = true
     title = "Our team"
     subtitle = "artists, writers, designers, and teachers"
-    description = "Coming from a diverse array of backgrounds, we met at The University of Texas at Austin’s iSchool. Working together through coursework and extracurricular academic projects, we decided to form QwertyCat Consulting to have a greater impact beyond the four walls of our school."
+    description = "Coming from a diverse array of backgrounds, we met at The University of Texas at Austin’s iSchool." 
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -160,7 +160,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "eric.png"
       name = "Eric Graham"
-      position = "CEO & Videographer"
+      position = "Videographer"
       reportsTo = ""
       livesIn = ""
       #scope = [
@@ -180,7 +180,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "molly.png"
       name = "Molly McGee"
-      position = "COO, Project & Account Manager"
+      position = "Project & Account Manager"
       social = [
         #["fa-twitter", "#"],
         #["fa-facebook", "#"],

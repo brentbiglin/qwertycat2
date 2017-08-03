@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://qwertycat.io"
+baseurl = "https://qwertycat.netlify.com"
 languageCode = "en-us"
 title = "Design and Content Agency Website"
 theme = "hugo-agency-theme"
